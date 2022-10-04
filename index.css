@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Poppins';
+    padding: 50px 50px;
+}
+
+.fa-earth-europe{
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+}
+
+.hero{
+    box-shadow: 0px 0px 200px black inset;
+    background-image: url("https://wallpaperaccess.com/full/253796.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero-title{
+    margin-top: 10%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#hero-title>h1{
+    font-family: 'Roboto';
+    font-size: 50px;
+    text-shadow:2px 5px 100px black ;
+}
+
+.fa-play-circle{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.intro-showcase{
+    box-shadow: 0px -20px 50px black;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.intro-showcase > h2{
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+.intro-showcase>p{
+    text-align: center;
+    margin-top: 2rem;
+
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.showcase{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.card-arg{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/480/88/955/nature-landscape-mountains-hills-wallpaper-preview.jpg");
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.199);
+    background-size: cover;
+    background-repeat: none;
+    
+}
+
+.card-usa{
+    font-family: 'Poppins';
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    background-image: url("https://www.viajablog.com/wp-content/uploads/2019/04/golden-gate-bridge-san-francisco.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.199);
+}
+.card-ita{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    justify-content: center;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/117/225/212/antigua-arquitectura-coliseum-roma-wallpaper-preview.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.199);
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+
+
