@@ -142,12 +142,12 @@ ul{
 }
 
 .fa-bars{
-    display: none;
+    display: none !important;
 }
 
 @media (max-width:600px){
     .fa-bars{
-        display: block;
+        display: block !important;
     }
 
     ul{
